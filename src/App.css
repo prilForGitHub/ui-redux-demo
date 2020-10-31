@@ -24,6 +24,60 @@
   color: white;
 }
 
+/* */
+
+.btn-wrapper button {
+  background-color: green;
+  border: 0px;
+  padding: 10px;
+  color: white;
+}
+
+.img-wrapper img {
+  width : 100px;
+  margin-top: -10px;
+}
+
+.cart-wrapper {
+    height: 100px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-left: 10%;
+}
+
+.item {
+  float :left;
+  width: 120px;
+  padding:20px;
+}
+
+.add-to-cart img {
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.cart-count {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 7px;
+    width: 20px;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+button.remove-cart-btn {
+  background-color: red;
+  padding: 5px;
+}
+/* */
+
 .App-link {
   color: #61dafb;
 }
